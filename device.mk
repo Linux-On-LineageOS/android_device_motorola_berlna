@@ -91,3 +91,4 @@ $(call soong_config_set, MOTOROLA_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/class/tou
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/berlna/berlna-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
